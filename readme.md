@@ -1,7 +1,8 @@
 
 ## Directory structure
 
-The TyPPX-based ppx extension is in `preprocessor`.
+The TyPPX-based ppx extension is in `preprocessor`. It is a trivial identity
+mapper.
 
 The app that uses it is in `app`.
 
