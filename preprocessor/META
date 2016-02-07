@@ -1,0 +1,5 @@
+version = "0.0.0"
+description = "Any package"
+ppx = "./ppx_package.native"
+archive(byte) = "randomPackage.cma"
+archive(native) = "randomPackage.cmxa"

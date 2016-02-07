@@ -1,0 +1,4 @@
+
+true: bin_annot, safe_string
+
+<src/*.{ml,mli,byte,native}>: package(compiler-libs.common typpx)

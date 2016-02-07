@@ -1,0 +1,17 @@
+opam-version: "1.2"
+name: "ppx_package"
+version: "0.0.0"
+maintainer: "Someone <someone@email.com>"
+authors: "Someone <someone@email.com>"
+homepage: "https://github.com/someone/ppx_package"
+bug-reports: "https://github.com/someone/ppx_package/issues"
+license: "MIT"
+dev-repo: "https://github.com/someone/ppx_package"
+depends: [
+  "ocamlfind"
+  "typpx" { >= "1.1.1" }
+]
+install: [[make "install"]]
+remove: [[make "remove"]]
+build: [[make]]
+ocaml-version: [>= "4.02.3"]
