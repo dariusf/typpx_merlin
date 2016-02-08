@@ -8,6 +8,10 @@ The app that uses it is in `app`.
 
 ## Steps to reproduce problem
 
+```sh
+opam install typpx
+```
+
 `make up` in the `preprocessor` directory will build the ppx extension and pin
 it on opam.
 
