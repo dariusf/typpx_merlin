@@ -4,11 +4,6 @@ open Ast_helper
 open Asttypes
 open Longident
 
-module TypedIdentityTransformation = struct
-  let map_structure x = x
-  let map_signature x = x
-end
-
 module Main = Typpx.Make.F(struct
     let tool_name = "ppx_package"
     let args = []
